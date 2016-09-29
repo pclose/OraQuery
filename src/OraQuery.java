@@ -68,9 +68,9 @@ public class OraQuery {
         try {
             
             for (int i = 3; i < args.length; i++) {
-                if (args[i].equals("-i") && (args.length > i)) {
+                if (args[i].equals("-i") && (args.length > i+1)) {
                     input_fh = new Scanner(new File(args[i+1]));
-                } else if (args[i].equals("-o") && args.length > i) {
+                } else if (args[i].equals("-o") && args.length > i+1) {
                     output_fh = new PrintWriter(args[i+1]);
                 }
             }
