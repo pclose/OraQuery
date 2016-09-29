@@ -208,7 +208,7 @@ public class OraQuery {
                 try {
                     result[i] = temp.toString();
                 } catch (Exception ex) {
-                    result[i] = "";
+                    result[i] = "**OraQuery Failure**";
                 }
             }
             
