@@ -105,7 +105,7 @@ public class OraQuery {
     
     /* OraQuery- private constructor call from main
      * does all the run logic */
-    private OraQuery(String db, String user, String pw, Scanner input, PrintWriter output) throws SQLException, IOException {
+    private OraQuery(String db, String user, String pw, Scanner input, PrintWriter output) throws SQLException, IOException, Exception {
         
         try {
         
